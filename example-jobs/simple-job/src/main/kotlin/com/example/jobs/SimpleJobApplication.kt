@@ -1,11 +1,11 @@
-package com.example.kotlinspringbatchexample
+package com.example.jobs
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class KotlinSpringBatchExampleApplication
+class SimpleJobApplication
 
 fun main(args: Array<String>) {
-    runApplication<KotlinSpringBatchExampleApplication>(*args)
+    runApplication<SimpleJobApplication>(*args)
 }

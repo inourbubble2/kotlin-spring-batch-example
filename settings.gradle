@@ -1,5 +1,8 @@
 rootProject.name = 'kotlin-spring-batch-example'
+
 include 'example-infrastructure:example-logger'
-include 'example-jobs:jpa-reader-writer-job'
 include 'example-common'
 
+// jobs
+include 'example-jobs:jpa-reader-writer-job'
+include 'example-jobs:simple-job'
